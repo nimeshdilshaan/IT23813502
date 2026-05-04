@@ -1,5 +1,4 @@
 # IT23813502 Test Automation
-# Dilshan A P N
 
 This repository contains a Python Playwright script that reads Singlish test cases from an Excel workbook, types each input into the chat translator UI, captures the Sinhala output, and writes the results back into the workbook.
 
@@ -58,6 +57,7 @@ Example command with explicit workbook columns:
 
 ```powershell
 python test_automation.py --excel "./IT23813502/IT23813502.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+```
 
 If you want to save the results to a different file, pass `--output`.
 
