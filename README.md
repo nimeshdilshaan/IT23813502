@@ -1,5 +1,4 @@
 # IT23813502 Test Automation
-# Dilshan A P N
 
 This repository contains a Python Playwright script that reads Singlish test cases from an Excel workbook, types each input into the chat translator UI, captures the Sinhala output, and writes the results back into the workbook.
 
